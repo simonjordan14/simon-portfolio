@@ -2,6 +2,7 @@ import Reveal from "./Reveal";
 
 export default function Projects() {
   return (
+    <>
     <section id="projects" className="px-8 py-32 md:px-16 lg:px-24">
       <Reveal>
         <div className="mx-auto max-w-7xl">
@@ -70,8 +71,57 @@ export default function Projects() {
               </div>
             </div>
           </article>
+          <article className="group border-t border-neutral-800 py-12">
+            <div className="grid gap-12 lg:grid-cols-[1fr_1.4fr]">
+              <div className="flex flex-col justify-between">
+                <div>
+                  <span className="text-sm text-neutral-600">02</span>
+
+                  <h3 className="mt-6 text-3xl font-semibold tracking-tight">
+                    AlphaTrails
+                  </h3>
+
+                  <p className="mt-4 max-w-md leading-7 text-neutral-400">
+                    A fitness platform aimed to connect specialists to people interested in creating a healthier lifestyle.
+                  </p>
+
+                  <div className="mt-8 flex flex-wrap gap-2">
+                    {["React", "Node.js", "MongoDB", "Material UI"].map(
+                      (tech) => (
+                        <span
+                          key={tech}
+                          className="rounded-full border border-neutral-800 px-3 py-1 text-xs text-neutral-400"
+                        >
+                          {tech}
+                        </span>
+                      )
+                    )}
+                  </div>
+                </div>
+
+                <a
+                  href="/projects/alphatrails"
+                  className="mt-10 inline-flex w-fit items-center gap-2 text-sm font-medium"
+                >
+                  View project
+                  <span className="transition-transform group-hover:translate-x-1">
+                    →
+                  </span>
+                </a>
+              </div>
+
+              <div className="overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-900">
+                <img
+                  src="/images/alphatrails.png"
+                  alt="AlphaTrails"
+                  className="h-auto w-full transition-transform duration-700 ease-out group-hover:scale-[1.025]"
+                />
+              </div>
+            </div>
+          </article>
         </div>
       </Reveal>
     </section>
+    </>
   );
 }

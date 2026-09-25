@@ -55,12 +55,6 @@ export default function Contact() {
               </div>
             </div>
           </div>
-
-          <footer className="mt-32 flex items-center justify-between border-t border-neutral-800 pt-8 text-xs text-neutral-600">
-            <p>© {new Date().getFullYear()} Simon Jordan</p>
-
-            <p>Built with Next.js</p>
-          </footer>
         </div>
       </Reveal>
     </section>

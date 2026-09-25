@@ -6,7 +6,7 @@ export default function Hero() {
           className="animate-fade-up mb-6 text-sm font-medium uppercase tracking-[0.3em] text-neutral-500"
           style={{ animationDelay: "100ms" }}
         >
-          Frontend Developer · Malta
+          Frontend Developer · Malta · UK
         </p>
 
         <h1
@@ -24,9 +24,8 @@ export default function Hero() {
           className="animate-fade-up mt-8 max-w-xl text-lg leading-8 text-neutral-400"
           style={{ animationDelay: "450ms" }}
         >
-          I&apos;m Simon, a frontend developer specialising in React, Next.js
-          and TypeScript. I turn ideas into fast, polished and intuitive web
-          experiences.
+          I turn complex ideas into fast, polished and intuitive web experiences —
+          from first concept to production.
         </p>
 
         <div

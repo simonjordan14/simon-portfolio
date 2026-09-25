@@ -4,6 +4,7 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import TechStack from "./components/TechStack";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer"
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
       <Projects />
       <About />
       <TechStack />
-      <Contact />={" "}
+      <Contact />
+      <Footer />
     </main>
   );
 }

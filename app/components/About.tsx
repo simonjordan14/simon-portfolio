@@ -20,7 +20,7 @@ export default function About() {
 
               <div className="mt-10 grid gap-8 text-neutral-400 md:grid-cols-2">
                 <p className="leading-7">
-                  I&apos;m Simon, a frontend developer based in Malta,
+                  I&apos;m Simon, a frontend developer based in Malta and the UK,
                   specialising in React and TypeScript. I build production
                   applications with a focus on usability, maintainability and
                   clean user experiences.
@@ -48,6 +48,7 @@ export default function About() {
                 </div>
 
                 <div>
+                  <p className="text-2xl font-semibold">U.K</p>
                   <p className="text-2xl font-semibold">Malta</p>
                   <p className="mt-2 text-sm text-neutral-500">Based in</p>
                 </div>
