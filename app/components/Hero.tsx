@@ -33,13 +33,12 @@ export default function Hero() {
           className="animate-fade-up mt-10 flex gap-4"
           style={{ animationDelay: "650ms" }}
         >
-          <a
-            href="#projects"
-            className="rounded-full bg-white px-6 py-3 font-medium text-black transition hover:bg-neutral-200"
-          >
-            View my work
-          </a>
-
+        <a
+          href="#projects"
+          className="rounded-full bg-white px-6 py-3 font-medium text-black transition hover:bg-neutral-200"
+        >
+          View my work
+        </a>
           <a
             href="#contact"
             className="rounded-full border border-neutral-700 px-6 py-3 font-medium transition hover:border-neutral-400"
