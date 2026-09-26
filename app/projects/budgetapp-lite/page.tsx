@@ -194,7 +194,7 @@ export default function BudgetAppLiteProject() {
                     </span>
                   </a>
 
-                  <Link
+                  {/* <Link
                     href="/projects/budgetapp"
                     className="group inline-flex items-center gap-3 text-lg text-neutral-500 transition-colors hover:text-white"
                   >
@@ -202,7 +202,7 @@ export default function BudgetAppLiteProject() {
                     <span className="transition-transform group-hover:translate-x-1">
                       →
                     </span>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </Reveal>
